@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# BlagueBook
 
-## Project info
+**Version** : 1.0.0
+**Description** : **BlagueBook** est une application web interactive inspirée de Facebook, dédiée à la publication, au partage et à la réaction autour de blagues.
+Elle permet à un administrateur unique de gérer tout le contenu et aux utilisateurs de liker, commenter et interagir.
+L’interface est moderne, responsive et optimisée pour mobile et desktop.
 
-**URL**: https://lovable.dev/projects/1205729a-dc1f-40d5-9774-c7be35b01589
+---
 
-## How can I edit this code?
+## 🛠️ Stack technique
 
-There are several ways of editing your application.
+<p align="left">
+  <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="TailwindCSS" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/vite/646CFF" alt="Vite" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/npm/CB3837" alt="NPM" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/git/F05032" alt="Git" width="40" height="40"/>
+</p>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1205729a-dc1f-40d5-9774-c7be35b01589) and start prompting.
+## 🎯 Aperçu du projet
 
-Changes made via Lovable will be committed automatically to this repo.
+![Page d’accueil](./assets/screenshots/home.png)
+*Interface d’accueil de BlagueBook avec un design clair et moderne.*
 
-**Use your preferred IDE**
+![Tableau de bord Admin](./assets/screenshots/dashboard.png)
+*Dashboard administrateur pour gérer les blagues, commentaires et statistiques.*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+![Version mobile](./assets/screenshots/mobile.png)
+*BlagueBook en version mobile (responsive).*
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Fonctionnalités principales
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Gestion unique d’administration** : un seul administrateur contrôle toutes les publications et paramètres.
+* **Réactions et commentaires** : les utilisateurs peuvent aimer et commenter les publications.
+* **Tableau de bord admin** : statistiques et gestion centralisée.
+* **Interface responsive** : adaptée aux écrans mobiles, tablettes et ordinateurs.
+* **UI moderne** : composants réutilisables avec **Tailwind CSS** et **ShadCN UI**.
+* **Favicon personnalisé** : remplacement du cœur Lovable par ton icône.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Structure du projet
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```
+BlagueBook/
+├── public/              # Ressources statiques (favicon, robots.txt, images)
+├── src/                 # Code source React + TypeScript
+│   ├── components/      # Composants UI (ShadCN, éléments personnalisés)
+│   ├── App.tsx          # Composant principal
+│   ├── main.tsx         # Point d’entrée React
+│   └── styles/          # Fichiers CSS (Tailwind inclus)
+├── index.html           # Fichier HTML principal
+├── package.json         # Dépendances et scripts
+├── tailwind.config.ts   # Configuration Tailwind
+└── vite.config.ts       # Configuration Vite
+```
+
+---
+
+## ⚙️ Scripts disponibles
+
+```bash
+# Lancer le serveur de développement
+npm run dev
+
+# Build pour production
+npm run build
+
+# Aperçu de la version buildée
+npm run preview
+
+# Linter le code
+npm run lint
+```
+
+---
+
+## 🚀 Installation et lancement
+
+```bash
+# 1. Cloner le dépôt
+git clone https://github.com/REBCDR07/BlagueBook.git
+
+# 2. Accéder au dossier
+cd BlagueBook
+
+# 3. Installer les dépendances
+npm install
+
+# 4. Lancer le serveur de développement
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📌 Notes
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* **Optimisation responsive** : testée sur mobile et desktop.
+* **Structure extensible** : facile à améliorer ou à connecter à un backend.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+© 2025 **BlagueBook** – Développé par *\[N. E. RONALD BILL HOUNNOU]*
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1205729a-dc1f-40d5-9774-c7be35b01589) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
