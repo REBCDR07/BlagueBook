@@ -410,7 +410,8 @@ function SignupForm() {
           >
             Fan
           </Button>
-          <Button
+
+         {/* <Button
             type="button"
             variant={role === 'admin' ? 'default' : 'outline'}
             onClick={() => setRole('admin')}
@@ -421,11 +422,11 @@ function SignupForm() {
             }`}
           >
             Admin
-          </Button>
+          </Button> */}
         </div>
       </div>
       
-      {/* Avatar Upload */}
+     {/* Avatar Upload */}
       <div className="space-y-3 animate-[fadeInUp_0.8s_ease-out_1s_both] transform-gpu">
         <Label className="text-sm font-bold text-gray-800 flex items-center gap-3">
           <div className="relative">
